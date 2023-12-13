@@ -1,0 +1,55 @@
+/* body {
+    background-color:#eb5151;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+} */
+body {
+    /* Set background color with low opacity */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0.5 for 50% opacity) */
+
+    /* Set background image */
+    background-image: url('src/images/car.jpg');
+    
+    /* Set background properties */
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust as needed */
+    background-position: center center;
+    
+    /* Optional: Add additional styles */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Optional: Add styles for content */
+  .content {
+    text-align: center;
+    color: #fff; /* Text color */
+  }
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+label {
+    display:block;
+    margin-bottom:10px;
+}
+input {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+button {
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+}
+
+#carhistory {
+    padding:1em;
+    background-color:#fff;
+    margin: 1em 0;
+}
